@@ -6,6 +6,8 @@
 
 <script>
 export default {
-	
+	created: function() {
+		console.log(this.$studentService.getAllStudents())
+	}
 }
 </script>
